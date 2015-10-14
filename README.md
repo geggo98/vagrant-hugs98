@@ -1,7 +1,7 @@
 Vagrantfile for hugs98
 ========
 
-Use this file to work with hugs98 in a virtual machine.
+Use this file to work with hugs98 in a virtual machine. With this method you can run hugs98 on Windows or on Mac OS X without problems.
 
 Howto
 ====
@@ -22,3 +22,7 @@ Prerequisite: You have to install [Vagrant][Vagrant] on your machine. Vagrant us
 
 When you edit a file on your machine and put it in the project directory ("vagrant-hugs98"), vagrant will sync it automatically with the "/vagrant" directory inside the VM. So you can use your favorite editor and don't have to use vim inside the VM.
 
+Screencast
+====
+
+[![asciicast](https://asciinema.org/a/27938.png)](https://asciinema.org/a/27938)
